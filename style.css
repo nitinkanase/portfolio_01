@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  nav {
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    transition: background-color 0.3s;
+  }
+  nav a:hover {
+    background-color: #555;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .hero-text {
+    flex: 1;
+    padding-right: 2rem;
+    /* background-color: #f0f0f0; */
+    border-radius: 10px;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero-image {
+    flex: 1;
+    text-align: center;
+  }
+  .hero-image img {
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .section {
+    margin-bottom: 2rem;
+  }
+  .btn-cv {
+    display: inline-block;
+    background-color: #ff725e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  #about{
+    width: 100%;
+    /* background-color: red; */
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  #about p{
+      text-align: justify;
+      line-height:25px;
+  }
+  .contact-section {
+    text-align: center;
+    padding: 2rem;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .contact-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .contact-button {
+    display: inline-block;
+    background-color: #ff725e;
+    color: white;
+    padding: 10px 20px;
+    border-radius:5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: none;
+  }
+  .skills-section {
+    text-align: center;
+    /* paddintin Kanase */ 
+    margin-top: -20px;
+  }
+  .skills-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .skill {
+    background-color: #ff725e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: transform 0.2s, background-color 0.2s;
+  }
+  .skill:hover {
+    background-color: #ff725e;
+    transform: scale(1.1);
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 20px;
+  }
+  .social-icons {
+    margin-top: 1rem;
+  }
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s;
+  }
+  .social-icon:hover {
+    color:#ff725e;
+  }
+ 
